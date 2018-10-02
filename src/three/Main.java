@@ -7,7 +7,7 @@ public class Main {
 
         System.out.println("Kilograms   " + "   pounds");
         DecimalFormat df = new DecimalFormat("#.#");
-        for(int i = 1; i <200; i+=2 ){
+        for(int i = 1; i <500; i+=2 ){
 
             System.out.println(i + "        " + df.format(i*2.2));
 
