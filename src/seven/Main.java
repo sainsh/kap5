@@ -1,13 +1,13 @@
 package seven;
 
-import java.sql.SQLOutput;
+
 
 public class Main {
 
     public static void main(String[] args) {
         int rate = 5;
         double tuition10 = 10000.0;
-        double cost = 0;
+        double cost;
 
         for(int i=0; i<10; i++){
 
